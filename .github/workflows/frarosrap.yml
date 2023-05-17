@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   issues:
     types: [opened, edited]
+    project_card: [moved]
 jobs:
   Docs:
     runs-on: ubuntu-latest
